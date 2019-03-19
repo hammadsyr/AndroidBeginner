@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (scoreTeamA <= 0) {
                     Toast.makeText(getApplicationContext(),
-                            String.format(getResources().getString(R.string.score), scoreTeamA), Toast.LENGTH_SHORT).show();
+                            String.format(getResources().getString(R.string.now_score), scoreTeamA), Toast.LENGTH_SHORT).show();
                 } else {
                     scoreTeamA = scoreTeamA - 1;
                     scoreTextA.setText(String.format(getResources().getString(R.string.score), scoreTeamA));
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (scoreTeamB <= 0) {
                     Toast.makeText(getApplicationContext(),
-                            String.format(getResources().getString(R.string.score), scoreTeamB), Toast.LENGTH_SHORT).show();
+                            String.format(getResources().getString(R.string.now_score), scoreTeamB), Toast.LENGTH_SHORT).show();
                 } else {
                     scoreTeamB = scoreTeamB - 1;
                     scoreTextB.setText(String.format(getResources().getString(R.string.score), scoreTeamB));
