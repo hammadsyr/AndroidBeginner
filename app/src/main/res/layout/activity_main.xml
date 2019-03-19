@@ -1,117 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
 
     <LinearLayout
-        android:layout_marginTop="15dp"
-        android:orientation="vertical"
-        android:layout_weight="1"
         android:layout_width="0dp"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Team A"
+            android:layout_gravity="center"
+            android:text="@string/team_a"
+            android:textColor="@color/colorPrimary"
             android:textSize="25sp"
-            android:textColor="@color/colorAccent"
-            android:layout_gravity="center"/>
+            android:textStyle="bold" />
+
         <TextView
-            android:id="@+id/tv_nilai_a"
+            android:id="@+id/tv_score_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="25dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:textColor="@color/colorAccent"
-            android:textSize="70sp"/>
+            android:text="@string/_0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="70sp" />
+
         <Button
-            android:id="@+id/btn_plus_a"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="16dp"
+            android:id="@+id/btn_add_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PLUS"
-            android:textAllCaps="true"
-            android:textColor="@color/colorPrimary"
-            android:background="@color/colorAccent"/>
-        <Button
-            android:id="@+id/btn_minus_a"
             android:layout_gravity="center_horizontal"
             android:layout_margin="16dp"
+            android:background="@drawable/circle_button"
+            android:text="@string/add"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_subtract_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="MINUS"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:background="@drawable/circle_button"
+            android:text="@string/substract"
             android:textAllCaps="true"
-            android:textColor="@color/colorPrimary"
-            android:background="@color/colorAccent"/>
+            android:textColor="@color/white" />
+
         <Button
             android:id="@+id/btn_reset_a"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RESET"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:background="@drawable/circle_button"
+            android:text="@string/reset"
             android:textAllCaps="true"
-            android:textColor="@color/colorPrimary"
-            android:background="@color/colorAccent"/>
+            android:textColor="@color/white" />
     </LinearLayout>
 
 
-
     <LinearLayout
-        android:layout_marginTop="15dp"
-        android:orientation="vertical"
-        android:layout_weight="1"
         android:layout_width="0dp"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Team B"
+            android:layout_gravity="center"
+            android:text="@string/team_b"
+            android:textColor="@color/colorPrimary"
             android:textSize="25sp"
-            android:textColor="@color/colorAccent"
-            android:layout_gravity="center"/>
+            android:textStyle="bold" />
+
         <TextView
-            android:id="@+id/tv_nilai_b"
+            android:id="@+id/tv_score_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="25dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:textColor="@color/colorAccent"
-            android:textSize="70sp"/>
+            android:text="@string/_0"
+            android:textColor="@color/colorPrimary"
+            android:textSize="70sp" />
+
         <Button
-            android:id="@+id/btn_plus_b"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="16dp"
+            android:id="@+id/btn_add_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PLUS"
-            android:textAllCaps="true"
-            android:textColor="@color/colorPrimary"
-            android:background="@color/colorAccent"/>
-        <Button
-            android:id="@+id/btn_minus_b"
             android:layout_gravity="center_horizontal"
             android:layout_margin="16dp"
+            android:background="@drawable/circle_button"
+            android:text="@string/add"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_subtract_b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="MINUS"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:background="@drawable/circle_button"
+            android:text="@string/substract"
             android:textAllCaps="true"
-            android:textColor="@color/colorPrimary"
-            android:background="@color/colorAccent"/>
+            android:textColor="@color/white" />
+
         <Button
             android:id="@+id/btn_reset_b"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RESET"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:background="@drawable/circle_button"
+            android:text="@string/reset"
             android:textAllCaps="true"
-            android:textColor="@color/colorPrimary"
-            android:background="@color/colorAccent"/>
+            android:textColor="@color/white" />
     </LinearLayout>
 
 </LinearLayout>

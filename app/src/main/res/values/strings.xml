@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">IakFacil</string>
+    <string name="app_name">Android Beginner</string>
+    <string name="team_a">Team A</string>
+    <string name="_0">0</string>
+    <string name="add">add</string>
+    <string name="substract">subtract</string>
+    <string name="reset">reset</string>
+    <string name="team_b">Team B</string>
+    <string name="score">%d</string>
+    <string name="now_score">The score is %d</string>
 </resources>

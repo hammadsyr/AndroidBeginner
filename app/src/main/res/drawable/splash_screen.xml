@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@color/colorPrimaryDark" />
-
-    <item>
-        <bitmap android:src="@drawable/trophy"
-            android:gravity="center" />
+    <item android:drawable="@color/white"/>
+    <item android:drawable="@drawable/ic_android_green_24dp" android:gravity="center"
+        android:height="250dp" android:width="230dp"/>
 
         <!--Jangan salah masukin nama logonya-->
-    </item>
 </layer-list>
